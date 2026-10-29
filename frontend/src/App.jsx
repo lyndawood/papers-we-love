@@ -268,28 +268,35 @@ function App() {
               </div>
             </div>
             <div className="carousel" ref={carouselRef}>
-              {featuredPapers.map((paper, idx) => (
-                <div
-                  key={paper.id}
-                  className="carousel-card"
-                  style={{
-                    transform: `rotate(${(idx % 2 === 0 ? -2 : 2)}deg)`
-                  }}
-                  onClick={() => handlePaperSelect(paper)}
-                  role="button"
-                  tabIndex={0}
-                  onKeyPress={(e) => {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                      handlePaperSelect(paper);
-                    }
-                  }}
-                >
-                  <div className="card-content">
-                    <h3 className="card-title">{paper.title}</h3>
-                    <p className="card-category">{paper.category}</p>
+              {featuredPapers.map((paper, idx) => {
+                const rotations = [-3, 2, -2.5, 3, -1.5, 2.5];
+                const rotation = rotations[idx % rotations.length];
+                const perspective = idx % 2 === 0 ? -2 : 1.5;
+                
+                return (
+                  <div
+                    key={paper.id}
+                    className="carousel-card"
+                    style={{
+                      transform: `rotateZ(${rotation}deg) rotateY(${perspective}deg)`,
+                      '--index': idx
+                    }}
+                    onClick={() => handlePaperSelect(paper)}
+                    role="button"
+                    tabIndex={0}
+                    onKeyPress={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        handlePaperSelect(paper);
+                      }
+                    }}
+                  >
+                    <div className="card-content">
+                      <h3 className="card-title">{paper.title}</h3>
+                      <p className="card-category">{paper.category}</p>
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </section>
         )}
