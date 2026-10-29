@@ -25,19 +25,11 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      const scrollDifference = currentScrollY - lastScrollY.current;
-      
-      // Only update if scroll difference is significant (more than 5px)
-      if (Math.abs(scrollDifference) < 5) {
-        return;
-      }
       
       // Minimize header when scrolling down past 100px
-      if (currentScrollY > 100 && scrollDifference > 0) {
+      if (currentScrollY > 100) {
         setIsHeaderMinimized(true);
-      } 
-      // Expand header when scrolling up or at top
-      else if (scrollDifference < 0 || currentScrollY <= 100) {
+      } else {
         setIsHeaderMinimized(false);
       }
       

@@ -87,22 +87,13 @@
 
         /* Header */
         .header {
-            background-color: var(--bg);
+            background-color: rgba(26, 26, 26, 0.95);
             border-bottom: 1px solid var(--border);
             position: sticky;
             top: 0;
             z-index: 100;
             backdrop-filter: blur(10px);
-            background-color: rgba(26, 26, 26, 0.95);
-            transition: all 0.3s ease;
-        }
-
-        .header.minimized .header-content {
-            max-height: 0;
-            overflow: hidden;
-            padding-top: 0;
-            padding-bottom: 0;
-            opacity: 0;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .header-top {
@@ -113,11 +104,12 @@
             justify-content: space-between;
             align-items: center;
             border-bottom: 1px solid var(--border);
-            transition: padding 0.3s ease;
+            transition: padding 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .header.minimized .header-top {
             padding: var(--spacing-sm) var(--spacing-lg);
+            border-bottom: none;
         }
 
         .logo {
@@ -168,7 +160,13 @@
             margin: 0 auto;
             padding: var(--spacing-2xl) var(--spacing-lg);
             background: linear-gradient(180deg, rgba(45, 45, 45, 0.3) 0%, transparent 100%);
-            transition: all 0.3s ease, max-height 0.3s ease, opacity 0.3s ease;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow: hidden;
+        }
+
+        .header.minimized .header-content {
+            padding: var(--spacing-sm) var(--spacing-lg);
+            background: transparent;
         }
 
         .page-title {
@@ -181,6 +179,11 @@
             line-height: 1.1;
             color: var(--accent);
             font-style: italic;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .header.minimized .page-title {
+            display: none;
         }
 
         .serif-accent {
@@ -203,6 +206,11 @@
             max-width: 1400px;
             margin-left: auto;
             margin-right: auto;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .header.minimized .search-container {
+            margin-bottom: 0;
         }
 
         .search-wrapper {
