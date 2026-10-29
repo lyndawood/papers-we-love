@@ -26,10 +26,11 @@ function App() {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       
-      // Minimize header when scrolling down past 100px
-      if (currentScrollY > 100) {
+      // Minimize header when scrolling down past 50px
+      // Only expand when scrolled back to the very top (< 10px)
+      if (currentScrollY > 50) {
         setIsHeaderMinimized(true);
-      } else {
+      } else if (currentScrollY < 10) {
         setIsHeaderMinimized(false);
       }
       
