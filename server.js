@@ -22,6 +22,7 @@ app.use(express.static(join(__dirname, 'frontend', 'dist')));
 let db = null;
 
 async function initDatabase() {
+  console.log('🗄️  Initializing database...');
   db = await open({
     filename: join(__dirname, 'papers.db'),
     driver: Database.Database
@@ -50,6 +51,8 @@ async function initDatabase() {
 
   // Load papers from JSON if database is empty
   const count = await db.get('SELECT COUNT(*) as count FROM papers');
+  console.log(`📊 Database has ${count.count} papers`);
+  
   if (count.count === 0) {
     await loadPapersFromJSON();
   }
@@ -59,10 +62,11 @@ async function loadPapersFromJSON() {
   try {
     const papersPath = join(__dirname, 'papers.json');
     if (!fs.existsSync(papersPath)) {
-      console.log('papers.json not found, skipping initial load');
+      console.log('⚠️  papers.json not found, skipping initial load');
       return;
     }
 
+    console.log('📥 Loading papers from papers.json...');
     const papersData = JSON.parse(fs.readFileSync(papersPath, 'utf-8'));
     
     for (const paper of papersData) {
@@ -85,9 +89,9 @@ async function loadPapersFromJSON() {
       );
     }
 
-    console.log(`Loaded ${papersData.length} papers into database`);
+    console.log(`✅ Loaded ${papersData.length} papers into database`);
   } catch (error) {
-    console.error('Error loading papers from JSON:', error);
+    console.error('❌ Error loading papers from JSON:', error);
   }
 }
 
@@ -223,9 +227,11 @@ app.get('/api/pdf/:filename', (req, res) => {
   }
 });
 
-// Serve frontend
+// Serve frontend - catch all
 app.get('*', (req, res) => {
-  res.sendFile(join(__dirname, 'frontend', 'dist', 'index.html'));
+  const indexPath = join(__dirname, 'frontend', 'dist', 'index.html');
+  console.log(`Serving index.html for ${req.path} from ${indexPath}`);
+  res.sendFile(indexPath);
 });
 
 // Start server
@@ -233,10 +239,11 @@ async function start() {
   try {
     await initDatabase();
     app.listen(PORT, '0.0.0.0', () => {
-      console.log(`Server running on http://localhost:${PORT}`);
+      console.log(`✅ Server running on http://localhost:${PORT}`);
+      console.log(`📚 Open your browser and navigate to http://localhost:${PORT}`);
     });
   } catch (error) {
-    console.error('Failed to start server:', error);
+    console.error('❌ Failed to start server:', error);
     process.exit(1);
   }
 }
