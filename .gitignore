@@ -1,1 +1,10 @@
 .DS_Store
+
+# Web app
+node_modules/
+papers.db
+*.log
+.env
+.env.local
+frontend/dist/
+frontend/node_modules/
