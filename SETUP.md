@@ -44,6 +44,8 @@ npm run build
 npm start
 ```
 
+For more detailed troubleshooting, see [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
+
 ### Port Already in Use
 
 If port 3000 is already in use, you can specify a different port:
@@ -62,6 +64,20 @@ npm start
 ```
 
 The database will be recreated automatically.
+
+### Verify Your Setup
+
+Run the verification script to check everything is installed correctly:
+
+**Mac/Linux:**
+```bash
+./verify-setup.sh
+```
+
+**Windows:**
+```bash
+verify-setup.bat
+```
 
 ---
 
