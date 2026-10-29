@@ -626,7 +626,7 @@
             align-items: flex-start;
             gap: var(--spacing-sm);
             position: relative;
-            overflow: hidden;
+            overflow: visible;
             min-height: auto;
         }
 
@@ -667,18 +667,21 @@
             display: flex;
             flex-direction: column;
             gap: var(--spacing-xs);
+            width: 100%;
         }
 
         .paper-title {
             font-weight: 600;
             font-size: 0.95rem;
-            line-height: 1.5;
+            line-height: 1.6;
             font-family: var(--serif);
             font-style: italic;
             word-wrap: break-word;
             overflow-wrap: break-word;
             white-space: normal;
             margin: 0;
+            max-width: 100%;
+            display: block;
         }
 
         .paper-category {
