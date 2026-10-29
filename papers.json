@@ -1,0 +1,2746 @@
+[
+  {
+    "title": "Analyzing Inter-Application Communication in Android",
+    "url": "https://www.eecs.berkeley.edu/~daw/papers/intents-mobisys11.pdf",
+    "category": "Android",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Effective Inter-Component Communication Mapping in Android with Epicc: An Essential Step Towards Holistic Security Analysis",
+    "url": "http://docteau.github.io/pubs/octeau-sec13.pdf",
+    "category": "Android",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "FlowDroid: Precise Context, Flow, Field, Object-sensitive and Lifecycle-aware Taint Analysis for Android Apps",
+    "url": "http://www.bodden.de/pubs/far+14flowdroid.pdf",
+    "category": "Android",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Architectural Styles and the Design of Network-based Software Architectures (REST) by Roy Fielding",
+    "url": "https://roy.gbiv.com/pubs/dissertation/fielding_dissertation.pdf",
+    "category": "Api Design",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Computing Machinery and Intelligence",
+    "url": "http://www.csee.umbc.edu/courses/471/papers/turing.pdf",
+    "category": "Artificial Intelligence",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Judea Pearl",
+    "url": "http://bayes.cs.ucla.edu/jp_home.html",
+    "category": "Artificial Intelligence",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":open_file_folder: Summary of Papers",
+    "url": "judea_pearl/",
+    "category": "Artificial Intelligence",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+    "url": "http://airesearch.com/wp-content/uploads/2016/01/deepmind-mastering-go.pdf",
+    "category": "Artificial Intelligence",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A Universal Music Translation Network (2018)",
+    "url": "https://arxiv.org/pdf/1805.07848.pdf",
+    "category": "Artificial Intelligence",
+    "description": "> This paper proposes a method for translating music across musical instruments, genres, and styles. It is based on a multi-domain wavenet autoencoder, with a shared encoder and a disentangled latent space that is trained end-to-end on waveforms. Employing a diverse training dataset and large net capacity, the domain-independent encoder enables translation even from musical domains that were not seen during training. The method is unsupervised and does not rely on supervision in the form of matched samples between domains or musical transcriptions. This method is evaluated on NSynth, as well as on a dataset collected from professional musicians, and achieve convincing translations, even when translating from whistling, potentially enabling the creation of instrumental music by untrained humans.",
+    "local_pdf": false
+  },
+  {
+    "title": "Attention is all you need",
+    "url": "https://arxiv.org/pdf/1706.03762.pdf",
+    "category": "Artificial Intelligence",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models (2023)",
+    "url": "https://arxiv.org/pdf/2210.03629.pdf",
+    "category": "Artificial Intelligence",
+    "description": "> While large language models (LLMs) have demonstrated impressive performance across various NLP tasks, their abilities in reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources to gather additional information.",
+    "local_pdf": false
+  },
+  {
+    "title": "WaveNet: A Generative Model for Raw Audio",
+    "url": "https://arxiv.org/pdf/1609.03499.pdf",
+    "category": "Audio Comp Sci",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Announcement and interactive examples",
+    "url": "https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio",
+    "category": "Audio Comp Sci",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Molecular Computation of Solutions to Combinatorial Problems",
+    "url": "http://www.cs.duke.edu/courses/cps296.4/spring04/papers/Adleman94.pdf",
+    "category": "Biocomputing",
+    "description": "- An interesting and inspiring approach to solving the (NP-complete) Hamiltonian Graph problem.",
+    "local_pdf": false
+  },
+  {
+    "title": "The chemical basis of morphogenesis",
+    "url": "http://www.dna.caltech.edu/courses/cs191/paperscs191/turing.pdf",
+    "category": "Biocomputing",
+    "description": "- How we can generate patterns from reaction-diffusion models and how those models apply in real life situations: cells self-organisation and pattern creation.",
+    "local_pdf": false
+  },
+  {
+    "title": "A DNA-Based Archival Storage System",
+    "url": "https://homes.cs.washington.edu/~luisceze/publications/dnastorage-asplos16.pdf",
+    "category": "Biocomputing",
+    "description": "- DNA is a strong candidate for storing data stably for centuries. DNA also has a very high data/volume density (1 exabyte / mm³).",
+    "local_pdf": false
+  },
+  {
+    "title": "SneakySnake: A Fast and Accurate Universal Genome Pre-Alignment Filter for CPUs, GPUs, and FPGAs (2019)",
+    "url": "https://arxiv.org/abs/1910.09020v2",
+    "category": "Bioinformatics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Shouji: a fast and efficient pre-alignment filter for sequence alignment (2019)",
+    "url": "https://arxiv.org/ftp/arxiv/papers/1809/1809.07858.pdf",
+    "category": "Bioinformatics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Shifted Hamming distance: a fast and accurate SIMD-friendly filter to accelerate alignment verification in read mapping (2015)",
+    "url": "https://doi.org/10.1093/bioinformatics/btu856",
+    "category": "Bioinformatics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "a-constant-algorithm-for-implementing-the-lfu-cache-eviction-scheme.pdf",
+    "category": "Caching",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": ":scroll:",
+    "url": "2q-a-low-overhead-high-performance-buffer-management-replacement-algorithm.pdf",
+    "category": "Caching",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": ":scroll:",
+    "url": "a-program-optimization-for-automatic-database-result-caching.pdf",
+    "category": "Caching",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Mealy, A Method for Synthesizing Sequential Circuits",
+    "url": "http://www3.alcatel-lucent.com/bstj/vol34-1955/articles/bstj34-5-1045.pdf",
+    "category": "Comp Sci Fundamentals And History",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "On the Computational Complexity of Algorithms",
+    "url": "http://www.ams.org/journals/tran/1965-117-00/S0002-9947-1965-0170805-7/S0002-9947-1965-0170805-7.pdf",
+    "category": "Comp Sci Fundamentals And History",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "mexica-a-computer-model-of-a-cognitive-account-of-creativing-writing.pdf",
+    "category": "Computational Creativity",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Piranha: A Scalable Architecture Based on Single-Chip Multiprocessing",
+    "url": "http://barroso.org/publications/isca00.pdf",
+    "category": "Computer Architecture",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "An Improved Illumination Model for Shaded Display",
+    "url": "https://www.cs.drexel.edu/~david/Classes/CS586/Papers/p343-whitted.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "GigaVoxels : Ray-Guided Streaming for Efficient and Detailed Voxel Rendering",
+    "url": "http://maverick.inria.fr/Publications/2009/CNLE09/CNLE09.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Continuous shading of curved surfaces",
+    "url": "http://page.mi.fu-berlin.de/block/htw-lehre/wise2015_2016/bel_und_rend/skripte/gouraud1971.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Illumination for computer generated pictures",
+    "url": "http://users.cs.northwestern.edu/~ago820/cs395/Papers/Phong_1975.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Rendering Equation",
+    "url": "http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S08/lectures/kajiya.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Poisson surface reconstruction",
+    "url": "http://research.microsoft.com/en-us/um/people/hoppe/poissonrecon.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "KinectFusion: Real-time 3D Reconstruction and Interaction Using a Moving Depth Camera",
+    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/kinectfusion-uist-comp.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "3-Sweep: Extracting Editable Objects from a Single Photo",
+    "url": "http://www.cs.tau.ac.il/~dcor/articles/2013/3-Sweep-Extracting-Editable-Objects.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Deep Photo Style Transfer",
+    "url": "https://arxiv.org/pdf/1703.07511.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Light Propagation Volumes in CryEngine 3",
+    "url": "http://www.crytek.com/download/Light_Propagation_Volumes.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Interactive Horizon Mapping: Shadows for bump-mapped surfaces",
+    "url": "https://www.ppsloan.org/publications/bs.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Interior Mapping: A new technique for rendering realistic buildings",
+    "url": "http://www.proun-game.com/Oogst3D/CODING/InteriorMapping/InteriorMapping.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "PushPull++",
+    "url": "http://peterwonka.net/Publications/pdfs/2014.SG.Lipp.PushPull.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Shape Grammars and the Generative Specification of Painting and Sculpture",
+    "url": "http://shapegrammar.org/ifip/SGBestPapers72.pdf",
+    "category": "Computer Graphics",
+    "description": "- A seminal paper that lead to many interesting applications in",
+    "local_pdf": false
+  },
+  {
+    "title": "Simulating Ocean Water",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.9102&rep=rep1&type=pdf",
+    "category": "Computer Graphics",
+    "description": "- Seminal paper on water surface simulation and rendering.",
+    "local_pdf": false
+  },
+  {
+    "title": "Blue Screen Matting",
+    "url": "https://graphics.stanford.edu/courses/cs148-09-fall/papers/smith-blinn.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Bayesian Approach to Digital Matting",
+    "url": "https://grail.cs.washington.edu/projects/digital-matting/papers/cvpr2001.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Learning-based Sampling for Natural Image Matting",
+    "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Tang_Learning-Based_Sampling_for_Natural_Image_Matting_CVPR_2019_paper.pdf",
+    "category": "Computer Graphics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Coupled 3D Reconstruction of Sparse Facial Hair and Skin",
+    "url": "http://studios.disneyresearch.com/wp-content/uploads/2019/03/Coupled-3D-Reconstruction-of-Sparse-Facial-Hair-and-Skin.pdf",
+    "category": "Computer Vision",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "High-Quality Single-Shot Capture of Facial Geometry",
+    "url": "http://studios.disneyresearch.com/wp-content/uploads/2019/03/High-Quality-Single-Shot-Capture-of-Facial-Geometry/",
+    "category": "Computer Vision",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Object Identification for Computer Vision Using Image Segmentation",
+    "url": "https://ieeexplore.ieee.org/document/5529412",
+    "category": "Computer Vision",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Computer Vision Based Detection and Localization of Potholes in Asphalt Pavement Images",
+    "url": "https://ieeexplore.ieee.org/document/7726722",
+    "category": "Computer Vision",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Color Constancy and Non-Uniform Illumination: Can Existing Algorithms Work?",
+    "url": "http://www5.informatik.uni-erlangen.de/Forschung/Publikationen/2011/Bleier11-CCA.pdf",
+    "category": "Computer Vision",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "3D Thermal Imaging: Fusion of Thermography and Depth Cameras",
+    "url": "https://www.ndt.net/article/qirt2014/papers/QIRT-2014-035.pdf",
+    "category": "Computer Vision",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Realtime depth map estimation from infrared stereo images of RGB-D cameras",
+    "url": "https://isprs-annals.copernicus.org/articles/V-2-2021/107/2021/isprs-annals-V-2-2021-107-2021.pdf",
+    "category": "Computer Vision",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Generating 3D Models for Prototyping of Virtual Environments using NeRF",
+    "url": "https://ieeexplore.ieee.org/document/10493505",
+    "category": "Computer Vision",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Everything You Always Wanted to Know About Synchronization but Were Afraid to Ask",
+    "url": "http://sigops.org/sosp/sosp13/papers/p33-david.pdf",
+    "category": "Concurrency",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Time, Clocks, and the Ordering of Events in a Distributed System",
+    "url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+    "category": "Concurrency",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Heap Architectures For Concurrent Languages Using Message Passing",
+    "url": "http://www.fantasi.se/publications/ISMM02.pdf",
+    "category": "Concurrency",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Message Analysis for Concurrent Languages",
+    "url": "http://user.it.uu.se/~kostis/Papers/escape.pdf",
+    "category": "Concurrency",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Finding Race Conditions in Erlang with QuickCheck and PULSE",
+    "url": "http://publications.lib.chalmers.se/records/fulltext/125252/local_125252.pdf",
+    "category": "Concurrency",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Semantics of x86-CC Multiprocessor Machine Code",
+    "url": "http://www.cl.cam.ac.uk/~pes20/weakmemory/popl09.pdf",
+    "category": "Concurrency",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms",
+    "url": "http://www.cs.rochester.edu/~scott/papers/1996_PODC_queues.pdf",
+    "category": "Concurrency",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Crash-Only Software",
+    "url": "https://www.usenix.org/legacy/events/hotos03/tech/full_papers/candea/candea.pdf",
+    "category": "Crash Only",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Microreboot -- A technique for cheap recovery",
+    "url": "https://www.usenix.org/legacy/event/osdi04/tech/full_papers/candea/candea.pdf",
+    "category": "Crash Only",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems (1977)",
+    "url": "https://dl.acm.org/doi/10.1145/359340.359342",
+    "category": "Cryptography",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Twenty Years of Attacks on the RSA Cryptosystem (1999)",
+    "url": "https://crypto.stanford.edu/~dabo/papers/RSA-survey.pdf",
+    "category": "Cryptography",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "New Directions in Cryptography (1976)",
+    "url": "http://www-ee.stanford.edu/~hellman/publications/24.pdf",
+    "category": "Cryptography",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "RSA Key Extraction via Low-Bandwidth Acoustic Cryptanalysis (2013)",
+    "url": "http://www.cs.tau.ac.il/~tromer/papers/acoustic-20131218.pdf",
+    "category": "Cryptography",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Moral Character of Cryptographic Work (2015)",
+    "url": "http://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf",
+    "category": "Cryptography",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "ntru-prime.pdf",
+    "category": "Cryptography",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Key Reinstallation Attacks: Forcing Nonce Reuse in WPA2 (2017)",
+    "url": "https://papers.mathyvanhoef.com/ccs2017.pdf",
+    "category": "Cryptography",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "a-new-approach-to-linear-filtering-and-prediction-problems.pdf",
+    "category": "Data Fusion",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Dynamic Hash Tables",
+    "url": "http://www.csd.uoc.gr/~hy460/pdf/Dynamic%20Hash%20Tables.pdf",
+    "category": "Data Structures",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms",
+    "url": "https://www.cs.rochester.edu/u/scott/papers/1996_PODC_queues.pdf",
+    "category": "Data Structures",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "RRB-Trees: Efﬁcient Immutable Vectors",
+    "url": "http://infoscience.epfl.ch/record/169879/files/RMTrees.pdf",
+    "category": "Data Structures",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Cuckoo Hashing",
+    "url": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.104.9191&rep=rep1&type=pdf",
+    "category": "Data Structures",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Fenwick Tree",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.8917&rep=rep1&type=pdf",
+    "category": "Data Structures",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Hopscotch Hashing",
+    "url": "http://mcg.cs.tau.ac.il/papers/disc2008-hopscotch.pdf",
+    "category": "Data Structures",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Calvin: Fast Distributed Transactions for Partitioned Database Systems",
+    "url": "http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "f4: Facebook’s Warm BLOB Storage System",
+    "url": "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-muralidhar.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Case for Determinism in Database Systems",
+    "url": "http://cs-www.cs.yale.edu/homes/dna/papers/determinism-vldb10.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Consistency Tradeoffs in Modern Distributed Database System Design",
+    "url": "http://cs-www.cs.yale.edu/homes/dna/papers/abadi-pacelc.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Modularity and Scalability in Calvin",
+    "url": "http://sites.computer.org/debull/A13june/calvin1.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Lightweight Locking for Main Memory Database Systems",
+    "url": "http://cs-www.cs.yale.edu/homes/dna/papers/vll-vldb13.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Cassandra - A Decentralized Structured Storage System",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.6751&rep=rep1&type=pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "CRUSH: Controlled, Scalable, Decentralized Placement of Replicated Data",
+    "url": "http://www.ssrc.ucsc.edu/Papers/weil-sc06.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Don’t Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS",
+    "url": "http://www.cs.cmu.edu/~dga/papers/cops-sosp2011.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+    "url": "http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/36632.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "F1: A Distributed SQL Database That Scales",
+    "url": "http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41344.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "HaLoop: Efficient Iterative Data Processing on Large Clusters",
+    "url": "http://homes.cs.washington.edu/~billhowe/pubs/HaLoop.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "HyperDex: A Distributed, Searchable Key-Value Store",
+    "url": "https://cs.uwaterloo.ca/~bernard/hyperdex.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Introduction to a System for Distributed Databases SDD-1",
+    "url": "http://people.eecs.berkeley.edu/~wong/wong_pubs/wong73.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Making Reliable Distributed Systems in the Presence of Software Errors",
+    "url": "http://www.erlang.org/download/armstrong_thesis_2003.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Managing Update Conflicts in Bayou, a Weakly Connected Replicated Storage System",
+    "url": "http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p172-terry.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Map-Reduce-Merge: Simplified Relational Data Processing on Large Clusters",
+    "url": "http://www.cs.duke.edu/courses/cps399.28/current/papers/sigmod07-YangDasdanEtAl-map_reduce_merge.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "MDCC: Multi-Data Center Consistency",
+    "url": "https://amplab.cs.berkeley.edu/wp-content/uploads/2013/03/mdcc-eurosys13.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Optimistic replication",
+    "url": "http://pages.cs.wisc.edu/~remzi/Classes/739/Spring2004/Papers/optimistic-survey.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Dangers of Replication and a Solution",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.2707&rep=rep1&type=pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Towards a Next Generation Data Center Architecture: Scalability and Commoditization",
+    "url": "http://research.microsoft.com/pubs/79348/presto27-greenberg.pdf",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "GenDB: The Next Generation of Query Processing -- Synthesized, Not Engineered (2026)",
+    "url": "https://arxiv.org/abs/2603.02081",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Bespoke OLAP: Synthesizing Workload-Specific One-size-fits-one Database Engines (2026)",
+    "url": "https://arxiv.org/abs/2603.02001",
+    "category": "Datastores",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "No Silver Bullet — Essence and Accidents of Software Engineering",
+    "url": "https://www.semanticscholar.org/paper/No-Silver-Bullet-Essence-and-Accidents-of-Software-Brooks/ed0759b7001f8be53bb4282750e98198b359307d",
+    "category": "Design",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Traits: A Mechanism for Fine-Grained Reuse",
+    "url": "http://scg.unibe.ch/archive/papers/Duca06bTOPLASTraits.pdf",
+    "category": "Design",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "THING-MODEL-VIEW-EDITOR an Example from a planningsystem",
+    "url": "http://heim.ifi.uio.no/~trygver/1979/mvc-1/1979-05-MVC.pdf",
+    "category": "Design",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Ethereum: a secure decentralized generalized transaction ledger",
+    "url": "https://ethereum.github.io/yellowpaper/paper.pdf",
+    "category": "Digital Currency",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Sun NFS",
+    "url": "http://www.cs.ucf.edu/~eurip/papers/sandbergnfs.pdf",
+    "category": "Distributed File Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Google (GFS)",
+    "url": "https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf",
+    "category": "Distributed File Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Hadoop (HDFS)",
+    "url": "https://storageconference.us/2010/Papers/MSST/Shvachko.pdf",
+    "category": "Distributed File Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Ceph",
+    "url": "https://ceph.io/assets/pdfs/weil-ceph-osdi06.pdf",
+    "category": "Distributed File Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Coda",
+    "url": "http://www.coda.cs.cmu.edu/ljpaper/lj.html",
+    "category": "Distributed File Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Frangipani",
+    "url": "https://pdos.csail.mit.edu/6.824/papers/thekkath-frangipani.pdf",
+    "category": "Distributed File Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Actor Formalism",
+    "url": "http://worrydream.com/refs/Hewitt-ActorModel.pdf",
+    "category": "Distributed File Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Datastores",
+    "url": "#datastores",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Physics",
+    "url": "#physics",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Testing, Verification, and Correctness",
+    "url": "#testing-verification-and-correctness",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "a-note-on-distributed-computing.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "A simple totally ordered broadcast protocol",
+    "url": "http://diyhpl.us/~bryan/papers2/distributed/distributed-systems/zab.totally-ordered-broadcast-protocol.2008.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Above the Clouds: A Berkeley View of Cloud Computing",
+    "url": "http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications",
+    "url": "http://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Kafka: a Distributed Messaging System for Log Processing",
+    "url": "http://notes.stephenholiday.com/Kafka.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Large-scale cluster management at Google with Borg",
+    "url": "http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43438.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Linearizability: A Correctness Condition for Concurrent Objects",
+    "url": "http://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial",
+    "url": "https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Hoard: A Scalable Memory Allocator for Multithreaded Applications",
+    "url": "http://people.cs.umass.edu/~emery/pubs/berger-asplos2000.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "MillWheel: Fault-Tolerant Stream Processing at Internet Scale",
+    "url": "http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41378.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Omega: flexible, scalable schedulers for large compute clusters",
+    "url": "http://research.google.com/pubs/archive/41684.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Orleans: Distributed Virtual Actors for Programmability and Scalability",
+    "url": "http://research.microsoft.com/apps/pubs/default.aspx?id=210931",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Paxos Made Live - An Engineering Perspective",
+    "url": "http://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Practical Byzantine Fault Tolerance and Proactive Recovery",
+    "url": "http://www.microsoft.com/research/wp-content/uploads/2017/01/p398-castro-bft-tocs.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Pregel: A System for Large-Scale Graph Processing",
+    "url": "http://kowshik.github.io/JPregel/pregel_paper.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Replication, History, and Grafting in the Ori File System",
+    "url": "http://sigops.org/sosp/sosp13/papers/p151-mashtizadeh.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Resilient Overlay Networks",
+    "url": "http://nms.lcs.mit.edu/papers/ron-sosp2001.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Sinfonia: A New Paradigm for Building Scalable Distributed Systems",
+    "url": "http://www.mshah.org/papers/sosp_2007_aguilera.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Sparrow: Distributed, Low Latency Scheduling",
+    "url": "http://people.csail.mit.edu/matei/papers/2013/sosp_sparrow.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Byzantine Generals Problem",
+    "url": "http://www.andrew.cmu.edu/course/15-749/READINGS/required/resilience/lamport82.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Hashgraph Consensus: Fair, Fast, Byzantine Fault Tolerance",
+    "url": "https://swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "the-chubby-lock-service-for-loosely-coupled-distributed-systems.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": ":scroll:",
+    "url": "join-calculus.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "The Part-Time Parliament",
+    "url": "http://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "There Is More Consensus in Egalitarian Parliaments",
+    "url": "https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Transactional Client-Server Cache Consistency: Alternatives and Performance",
+    "url": "http://drum.lib.umd.edu/bitstream/handle/1903/751/CS-TR-3511.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Unicorn: A System for Searching the Social Graph",
+    "url": "http://db.disi.unitn.eu/pages/VLDBProgram/pdf/industry/p871-curtiss.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Unikernels: Library Operating Systems for the Cloud",
+    "url": "http://unikernel.org/files/2013-asplos-mirage.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms",
+    "url": "http://www.cs.utexas.edu/~shmat/courses/cs395t_fall04/chaum81.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems",
+    "url": "http://www.pmg.csail.mit.edu/papers/vr.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "VL2: A Scalable and Flexible Data Center Network",
+    "url": "http://research.microsoft.com/pubs/80693/vl2-sigcomm09-final.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Calvin: Fast Distributed Transactions for Partitioned Database Systems",
+    "url": "http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "f4: Facebook’s Warm BLOB Storage System",
+    "url": "http://www.usenix.org/system/files/conference/osdi14/osdi14-paper-muralidhar.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Case for Determinism in Database Systems",
+    "url": "http://cs-www.cs.yale.edu/homes/dna/papers/determinism-vldb10.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Consistency Tradeoffs in Modern Distributed Database System Design",
+    "url": "http://cs-www.cs.yale.edu/homes/dna/papers/abadi-pacelc.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Modularity and Scalability in Calvin",
+    "url": "http://sites.computer.org/debull/A13june/calvin1.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Lightweight Locking for Main Memory Database Systems",
+    "url": "http://cs-www.cs.yale.edu/homes/dna/papers/vll-vldb13.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Cassandra - A Decentralized Structured Storage System",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.6751&rep=rep1&type=pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "CRUSH: Controlled, Scalable, Decentralized Placement of Replicated Data",
+    "url": "http://www.ssrc.ucsc.edu/Papers/weil-sc06.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Don’t Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS",
+    "url": "http://www.cs.cmu.edu/~dga/papers/cops-sosp2011.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+    "url": "http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/36632.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "F1: A Distributed SQL Database That Scales",
+    "url": "http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41344.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "HaLoop: Efficient Iterative Data Processing on Large Clusters",
+    "url": "http://homes.cs.washington.edu/~billhowe/pubs/HaLoop.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "HyperDex: A Distributed, Searchable Key-Value Store",
+    "url": "https://cs.uwaterloo.ca/~bernard/hyperdex.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Introduction to a System for Distributed Databases SDD-1",
+    "url": "http://people.eecs.berkeley.edu/~wong/wong_pubs/wong73.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Making Reliable Distributed Systems in the Presence of Software Errors",
+    "url": "http://www.erlang.org/download/armstrong_thesis_2003.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Managing Update Conflicts in Bayou, a Weakly Connected Replicated Storage System",
+    "url": "http://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p172-terry.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Map-Reduce-Merge: Simplified Relational Data Processing on Large Clusters",
+    "url": "http://www.cs.duke.edu/courses/cps399.28/current/papers/sigmod07-YangDasdanEtAl-map_reduce_merge.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "MDCC: Multi-Data Center Consistency",
+    "url": "https://amplab.cs.berkeley.edu/wp-content/uploads/2013/03/mdcc-eurosys13.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Optimistic replication",
+    "url": "http://pages.cs.wisc.edu/~remzi/Classes/739/Spring2004/Papers/optimistic-survey.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Dangers of Replication and a Solution",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.2707&rep=rep1&type=pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Towards a Next Generation Data Center Architecture: Scalability and Commoditization",
+    "url": "http://research.microsoft.com/pubs/79348/presto27-greenberg.pdf",
+    "category": "Distributed Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Auctions and bidding: A guide for computer scientists (2011)",
+    "url": "http://www.sci.brooklyn.cuny.edu/~parsons/projects/mech-design/publications/bluffers-final.pdf",
+    "category": "Economics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Optimal Bidding in Online Auctions (2001)",
+    "url": "http://www.mit.edu/~dbertsim/papers/Revenue%20Management/Optimal%20Bidding%20in%20Online%20Auctions.pdf",
+    "category": "Economics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Online Ad Auctions (2009)",
+    "url": "online-ad-auctions.pdf",
+    "category": "Economics",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "The Simple Economics of Open Source  (2000)",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=224008",
+    "category": "Economics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Contract Enforceability and Economic Institutions in Early Trade: The Maghribi Traders' Coalition (1993)",
+    "url": "https://web.stanford.edu/~avner/Greif_Papers/1993%20Greif%20AER%201993.pdf",
+    "category": "Economics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Two-person cooperative games (1950)",
+    "url": "https://www.rand.org/content/dam/rand/pubs/papers/2005/P172.pdf",
+    "category": "Economics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Emergent Economies for Role Playing Games (2012)",
+    "url": "https://ianparberry.com/pubs/econ.pdf",
+    "category": "Economics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Reflections on Trusting Trust",
+    "url": "http://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf",
+    "category": "Ethics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Coq: The world’s best macro assembler?",
+    "url": "https://research.microsoft.com/en-us/um/people/nick/coqasm.pdf",
+    "category": "Faults And Verification",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "GN&C Fault Protection Fundamentals",
+    "url": "https://dataverse.jpl.nasa.gov/api/access/datafile/3492",
+    "category": "Faults And Verification",
+    "description": "> As software becomes more and more integrated in our daily lives, we",
+    "local_pdf": false
+  },
+  {
+    "title": "Defining Gamification - A Service Marketing Perspective",
+    "url": "https://www.researchgate.net/publication/259841647_Defining_Gamification_-_A_Service_Marketing_Perspective",
+    "category": "Gamification",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Design Requirements for Technologies that Encourage Physical Activity",
+    "url": "https://www.cs.helsinki.fi/u/thusu/opinnot/uschool/T-121.5500/p457-consolvo.pdf",
+    "category": "Gamification",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Exploring the Potential of Gamification Among Frail Elderly Persons",
+    "url": "http://gamification-research.org/wp-content/uploads/2011/04/12-Gerling.pdf",
+    "category": "Gamification",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "From Game Design Elements to Gamefulness: Defining “Gamification”",
+    "url": "https://uwaterloo.ca/scholar/sites/ca.scholar/files/lnacke/files/From_game_design_elements_to_gamefulness-_defining_gamification.pdf",
+    "category": "Gamification",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "MoviPill: Improving Medication Compliance for Elders - Using a Mobile Persuasive Social Game",
+    "url": "http://www.ic.unicamp.br/~oliveira/doc/Ubicomp2010_MoviPill.pdf",
+    "category": "Gamification",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Removing Gamification from an Enterprise SNS",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/2145204.2145362",
+    "category": "Gamification",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A Unified Theory of Garbage Collection",
+    "url": "https://www.cs.cornell.edu/courses/cs6120/2019fa/blog/unified-theory-gc/",
+    "category": "Garbage Collection",
+    "description": "> An overview for programmers and language implementors for understanding different garbage collection algorithms.",
+    "local_pdf": false
+  },
+  {
+    "title": "A LISP Garbage-Collector for Virtual-Memory Computer Systems",
+    "url": "https://www.cs.purdue.edu/homes/hosking/690M/p611-fenichel.pdf",
+    "category": "Garbage Collection",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Incremental Collection of Mature Objects",
+    "url": "http://pdf.aminer.org/000/465/194/incremental_collection_of_mature_objects.pdf",
+    "category": "Garbage Collection",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "incremental_mature_garbage_collection_using_the_train_algorithm.pdf",
+    "category": "Garbage Collection",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Incremental Garbage Collection: The Train Algorithm",
+    "url": "http://www.ssw.uni-linz.ac.at/General/Staff/TW/Wuerthinger05Train.pdf",
+    "category": "Garbage Collection",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "On-the-Fly Garbage Collection: An Exercise in Cooperation",
+    "url": "https://lamport.azurewebsites.net/pubs/garbage.pdf",
+    "category": "Garbage Collection",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "the_lisp_ii_garbage_collector.pdf",
+    "category": "Garbage Collection",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "The Treadmill: Real-Time Garbage Collection Without Motion Sickness",
+    "url": "http://plover.com/~mjd/misc/hbaker-archive/NoMotionGC.html",
+    "category": "Garbage Collection",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "parallel_generational_copying_garbage_collection_with_a_block_structured_heap.pdf",
+    "category": "Garbage Collection",
+    "description": "Heap](http://simonmar.github.io/bib/papers/parallel-gc.pdf)",
+    "local_pdf": true
+  },
+  {
+    "title": "Epidemic Algorithms for Replicated Database Maintenance",
+    "url": "http://bitsavers.informatik.uni-stuttgart.de/pdf/xerox/parc/techReports/CSL-89-1_Epidemic_Algorithms_for_Replicated_Database_Maintenance.pdf",
+    "category": "Gossip",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Peer Sampling Service: Experimental Evaluation of Unstructured Gossip-Based Implementations",
+    "url": "http://infoscience.epfl.ch/record/83409/files/neg--1184036295all.pdf",
+    "category": "Gossip",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "HyParView: a membership protocol for reliable gossip-based broadcast",
+    "url": "http://asc.di.fct.unl.pt/~jleitao/pdf/dsn07-leitao.pdf",
+    "category": "Gossip",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "SWIM: Scalable Weakly-consistent Infection-style Process Group Membership Protocol",
+    "url": "http://research.cs.cornell.edu/projects/Quicksilver/public_pdfs/SWIM.pdf",
+    "category": "Gossip",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Large-Scale Newscast Computing on the Internet",
+    "url": "http://www.researchgate.net/profile/Maarten-Van-Steen/publication/2479853_Large-Scale_Newscast_Computing_on_the_Internet/links/579132c708ae0831552f97f4/Large-Scale-Newscast-Computing-on-the-Internet.pdf",
+    "category": "Gossip",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Bimodal Multicast",
+    "url": "http://www.csl.mtu.edu/cs6461/www/Reading/Birman99.pdf",
+    "category": "Gossip",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Efficient Reconciliation and Flow Control for Anti-Entropy Protocols",
+    "url": "http://www.cs.cornell.edu/home/rvr/papers/flowgossip.pdf",
+    "category": "Gossip",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Epidemic Broadcast Trees",
+    "url": "http://www.gsd.inesc-id.pt/~ler/reports/srds07.pdf",
+    "category": "Gossip",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A Gossip-Style Failure Detection Service",
+    "url": "https://ecommons.cornell.edu/bitstream/handle/1813/7341/98-1687.pdf",
+    "category": "Gossip",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The ϕ Accrual Failure Detector",
+    "url": "https://dspace.jaist.ac.jp/dspace/bitstream/10119/4784/1/IS-RR-2004-010.pdf",
+    "category": "Gossip",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "graph_of_word_and_tw_idf.pdf",
+    "category": "Information Retrieval",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": ":scroll:",
+    "url": "the-pagerank-citation-ranking-bringing-order-to-the-web.pdf",
+    "category": "Information Retrieval",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": ":scroll:",
+    "url": "okapi-at-trec3.pdf",
+    "category": "Information Retrieval",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": ":scroll:",
+    "url": "authoritative-sources-in-a-hyperlinked-environment.pdf",
+    "category": "Information Retrieval",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Differential Privacy",
+    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/dwork.pdf",
+    "category": "Information Theory",
+    "description": "- How do we quantify the exposure an individual faces from being",
+    "local_pdf": false
+  },
+  {
+    "title": "Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/359576.359579",
+    "category": "Languages Theory",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Programming and Reasoning with Algebraic Effects and Dependent Types",
+    "url": "https://web.archive.org/web/20150102181601id_/http://eb.host.cs.st-andrews.ac.uk/drafts/effects.pdf",
+    "category": "Languages Theory",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Programming Languages: History and Future",
+    "url": "http://www.csee.umbc.edu/courses/undergraduate/CMSC331/resources/papers/sammet1972.pdf",
+    "category": "Languages Theory",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Soft Typing",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.24.9333&rep=rep1&type=pdf",
+    "category": "Languages Theory",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/composable-and-compilable-macros-you-want-it-when.pdf",
+    "category": "Languages Theory",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Purely Functional Lazy Non-deterministic Programming",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.148.524",
+    "category": "Logic And Programming",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "on-the-meanings-of-the-logical-constants.pdf",
+    "category": "Logic And Programming",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Top 10 algorithms in data mining",
+    "url": "https://www.researchgate.net/publication/29467751_Top_10_algorithms_in_data_mining",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A Few Useful Things to Know about Machine Learning",
+    "url": "http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Random Forests",
+    "url": "https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+    "url": "http://repository.upenn.edu/cgi/viewcontent.cgi?article=1162&context=cis_papers",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Support-Vector Networks",
+    "url": "http://rd.springer.com/content/pdf/10.1007%2FBF00994018.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Fast Johnson-Lindenstrauss Transforms",
+    "url": "https://www.cs.princeton.edu/~chazelle/pubs/FJLT-sicomp09.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Applications of Machine Learning to Location Data",
+    "url": "http://www.berkkapicioglu.com/wp-content/uploads/2013/11/thesis_final.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "\"Why Should I Trust You?\" Explaining the Predictions of Any Classifier",
+    "url": "http://www.kdd.org/kdd2016/papers/files/rfp0573-ribeiroA.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Multiple Narrative Disentanglement: Unraveling *Inﬁnite Jest*",
+    "url": "http://aclanthology.org/N12-1001.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "url": "http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+    "url": "https://arxiv.org/pdf/2312.00752.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Interpretable machine learning: definitions, methods, and applications",
+    "url": "https://arxiv.org/pdf/1901.04592.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Distilling the Knowledge in a Neural Network",
+    "url": "https://arxiv.org/pdf/1503.02531.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Truncation of Wavelet Matrices: Edge Effects and the Reduction of Topological Control",
+    "url": "https://reader.elsevier.com/reader/sd/pii/0024379594000395?token=EB0AA78D59A9648480596F018EFB72E0A02FD5FA70326B24B9D501E1A6869FE72CC4D97FA9ACC8BAB56060D6C908EC83",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A Sparse Johnson-Lindenstrauss Transform",
+    "url": "dimensionality_reduction/a-sparse-johnson-lindenstrauss-transform.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Towards a unified theory of sparse dimensionality reduction in Euclidean space",
+    "url": "dimensionality_reduction/toward-a-unified-theory-of-sparse-dimensionality-reduction-in-euclidean-space.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Understanding Deep Convolutional Networks",
+    "url": "Understanding-Deep-Convolutional-Networks.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "General self-similarity: an overview",
+    "url": "General-self-similarity--an-overview.pdf",
+    "category": "Machine Learning",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "D-Expressions: Lisp Power, Dylan Style",
+    "url": "http://people.csail.mit.edu/jrb/Projects/dexprs.pdf",
+    "category": "Macros",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Fortifying Macros",
+    "url": "http://www.ccs.neu.edu/racket/pubs/icfp10-cf.pdf",
+    "category": "Macros",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Conway's ZIP proof",
+    "url": "https://www.maths.ed.ac.uk/~v1ranick/papers/francisweeks.pdf",
+    "category": "Mathematics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Packing of Spheres",
+    "url": "http://neilsloane.com/doc/Me109.pdf",
+    "category": "Mathematics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Some Underlying Geometric Notions",
+    "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+    "category": "Mathematics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "What is a Young Tableaux?",
+    "url": "https://www.ams.org/notices/200702/whatis-yong.pdf",
+    "category": "Mathematics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Topology of Numbers",
+    "url": "https://pi.math.cornell.edu/~hatcher/TN/TNbook.pdf",
+    "category": "Mathematics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Applied Algebraic Topology and Sensor Networks",
+    "url": "https://www.math.upenn.edu/~ghrist/preprints/ATSN.pdf",
+    "category": "Mathematics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Elements of Algebraic Topology: Sheaves",
+    "url": "https://www.math.upenn.edu/~ghrist/EAT/EATchapter9.pdf",
+    "category": "Mathematics",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A Unified Theory of Garbage Collection",
+    "url": "https://web.eecs.umich.edu/~weimerw/2012-4610/reading/bacon-garbage.pdf",
+    "category": "Memory Management",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Teaching Garbage Collection without Implementing Compilers or Interpreters",
+    "url": "https://cs.brown.edu/~sk/Publications/Papers/Published/cgkmf-teach-gc/paper.pdf",
+    "category": "Memory Management",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Message Analysis Guided Allocation and Low Pause Incremental GC in a Concurrent Language",
+    "url": "http://user.it.uu.se/~kostis/Papers/ismm04.pdf",
+    "category": "Memory Management",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "And Then There Were None: A Stall-Free Real-Time Garbage Collector for Reconfigurable Hardware",
+    "url": "https://cacm.acm.org/magazines/2013/12/169948-and-then-there-were-none/fulltext",
+    "category": "Memory Management",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Slab Allocator: An Object-Caching Kernel Memory Allocator",
+    "url": "https://www.usenix.org/legacy/publications/library/proceedings/bos94/bonwick.html",
+    "category": "Memory Management",
+    "description": "- [ASCII version](https://www.usenix.org/legacy/publications/library/proceedings/bos94/full_papers/bonwick.a)",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "making-lockless-synchronization-fast.pdf",
+    "category": "Memory Management",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Bimodal Multicast",
+    "url": "http://www.csl.mtu.edu/cs6461/www/Reading/Birman99.pdf",
+    "category": "Networks",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "End-to-End Arguments in System Design",
+    "url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf",
+    "category": "Networks",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Can SPDY Really Make the Web Faster?",
+    "url": "http://www.eecs.qmul.ac.uk/~tysong/files/IFIPNetworking14.pdf",
+    "category": "Networks",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Datacenter Traffic Control: Understanding Techniques and Trade-offs",
+    "url": "https://osf.io/6qzxc/",
+    "category": "Networks",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "B4: Experience with a Globally-Deployed Software Defined WAN",
+    "url": "https://dl.acm.org/citation.cfm?id=2486019",
+    "category": "Networks",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "a-wait-free-stack.pdf",
+    "category": "Non Blocking Algorithms",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": ":scroll:",
+    "url": "a-wait-free-queue-as-fast-as-fetch-and-add.pdf",
+    "category": "Non Blocking Algorithms",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": ":scroll:",
+    "url": "efficient-lock-free-b+trees.pdf",
+    "category": "Non Blocking Algorithms",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "The operating system: should there be one?",
+    "url": "https://www.cl.cam.ac.uk/~srk31/research/papers/kell13operating.pdf",
+    "category": "Operating Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors",
+    "url": "https://people.csail.mit.edu/nickolai/papers/clements-sc.pdf",
+    "category": "Operating Systems",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Pattern Matching",
+    "url": "../pattern_matching/README.md",
+    "category": "Pattern Matching",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Stringology",
+    "url": "../pattern_stringology/README.md",
+    "category": "Pattern Matching",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "On the resemblance and containment of documents",
+    "url": "https://www.cs.princeton.edu/courses/archive/spr05/cos598E/bib/broder97resemblance.pdf",
+    "category": "Pattern Matching",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Pattern Matching",
+    "url": "../pattern_matching/README.md",
+    "category": "Pattern Stringology",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Stringology",
+    "url": "../pattern_stringology/README.md",
+    "category": "Pattern Stringology",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A Taxonomy of Suffix Array Construction Algorithms",
+    "url": "http://www.cas.mcmaster.ca/~bill/best/algorithms/07Taxonomy.pdf",
+    "category": "Pattern Stringology",
+    "description": "- A great introduction to",
+    "local_pdf": false
+  },
+  {
+    "title": "Fast String Searching",
+    "url": "https://web.archive.org/web/20220912024717/https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.13.9460&rep=rep1&type=pdf",
+    "category": "Pattern Stringology",
+    "description": "- This paper describes techniques to improve the performance of the [Boyer–Moore string search algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm).",
+    "local_pdf": false
+  },
+  {
+    "title": "k-ANONYMITY: A model for Protecting Privacy (1998)",
+    "url": "https://epic.org/wp-content/uploads/privacy/reidentification/Sweeney_Article.pdf",
+    "category": "Privacy",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Differential Privacy(2006)",
+    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/dwork.pdf",
+    "category": "Privacy",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Robust De-anonymization of Large Sparse Datasets(2008)",
+    "url": "https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf",
+    "category": "Privacy",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Broken Promises of Privacy: Responding to the Surprising Failure of Anonymization(2010)",
+    "url": "https://www.uclalawreview.org/broken-promises-of-privacy-responding-to-the-surprising-failure-of-anonymization-2/",
+    "category": "Privacy",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Timing Attacks on Web Privacy(2000)",
+    "url": "https://www.cs.jhu.edu/~fabian/courses/CS600.424/course_papers/webtiming.pdf",
+    "category": "Privacy",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Protecting Browser State from Web Privacy Attacks(2006)",
+    "url": "https://crypto.stanford.edu/sameorigin/sameorigin.pdf",
+    "category": "Privacy",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Privacy Papers for Visual Data",
+    "url": "https://github.com/brighter-ai/awesome-privacy-papers",
+    "category": "Privacy",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "https://github.com/papers-we-love/papers-we-love/blob/main/processes/communicating-sequential-processes.pdf",
+    "category": "Processes",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Calculus of Communicating Systems",
+    "url": "https://moodle.risc.jku.at/pluginfile.php/3407/mod_resource/content/1/A%20Calculus%20of%20Communicating%20Systems%5B1980%5D.pdf",
+    "category": "Processes",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Google",
+    "url": "http://infolab.stanford.edu/pub/papers/google.pdf",
+    "category": "Search Engines",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Bing",
+    "url": "https://arxiv.org/pdf/1802.04914.pdf",
+    "category": "Search Engines",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Yahoo",
+    "url": "https://www.kdd.org/kdd2016/papers/files/adf0361-yinA.pdf",
+    "category": "Search Engines",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Reflections on Trusting Trust (1984)",
+    "url": "http://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf",
+    "category": "Security",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Internet Census via Insecure Routers (2012)",
+    "url": "https://www.researchgate.net/publication/279069631_The_Internet_Census_2012_Dataset_An_Ethical_Examination",
+    "category": "Security",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Looking inside the (Drop) Box (2013)",
+    "url": "https://www.usenix.org/system/files/conference/woot13/woot13-kholia.pdf",
+    "category": "Security",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Making Programs Forget: Enforcing Lifetime For Sensitive Data (2011)",
+    "url": "https://www.usenix.org/events/hotos11/tech/final_files/Kannan.pdf",
+    "category": "Security",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Breach: Reviving The Crime Attack (2013)",
+    "url": "http://breachattack.com/resources/BREACH%20-%20SSL,%20gone%20in%2030%20seconds.pdf",
+    "category": "Security",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Why Silent Updates Boost Security (2009)",
+    "url": "http://tik-old.ee.ethz.ch/file/ef72343372ca8659a9ae8a98873167c0/TIKReport302.pdf",
+    "category": "Security",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A survey of coordinated attacks and collaborative intrusion detection (2010)",
+    "url": "https://www.sciencedirect.com/science/article/pii/S016740480900073X",
+    "category": "Security",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Zanzibar: Google’s Consistent, Global Authorization System (2019)",
+    "url": "https://research.google/pubs/pub48190/",
+    "category": "Security",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Meltdown (2018)",
+    "url": "https://meltdownattack.com/meltdown.pdf",
+    "category": "Security",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Spectre Attacks: Exploiting Speculative Execution (2018)",
+    "url": "https://spectreattack.com/spectre.pdf",
+    "category": "Security",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "DRAM Row Hammer (2014)",
+    "url": "https://people.inf.ethz.ch/omutlu/pub/dram-row-hammer_isca14.pdf",
+    "category": "Security",
+    "description": "- Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors",
+    "local_pdf": false
+  },
+  {
+    "title": "Studying Attitudes and Social Norms in Agile Software Development (2019)",
+    "url": "https://arxiv.org/pdf/1904.09225.pdf",
+    "category": "Software Engineering Orgs",
+    "description": "> This paper reviews research on attitudes and social norms and connect it to the agile software development context. Author proposes additional theories from social psychology that would most certainly be useful for further sense-making of human factors-related research on agile teams.",
+    "local_pdf": false
+  },
+  {
+    "title": "Happiness and the productivity of software engineers (2019)",
+    "url": "https://arxiv.org/ftp/arxiv/papers/1904/1904.08239.pdf",
+    "category": "Software Engineering Orgs",
+    "description": "> This paper provides an overview of studies on the happiness of software developers. You will learn why it is important to make software developers happy, how happy they really are, what makes them unhappy, and what is expected for their productivity while developing software.",
+    "local_pdf": false
+  },
+  {
+    "title": "Why Software Projects need Heroes (Lessons Learned from 1100+ Projects) (2019)",
+    "url": "https://arxiv.org/pdf/1904.09954.pdf",
+    "category": "Software Engineering Orgs",
+    "description": "> This paper explores the effect of having heroes in projects, from a code quality perspective. Authors identify the hero developers of 1100+ open source GitHub projects. Based on the analysis, they find the majority of all projects are *\"hero\" projects* and commits from *hero developers* (who contribute the most code) result in far fewer bugs than other developers -- which is contrary to the literature.",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "common-ground-and-coordination-in-joint-activity.pdf",
+    "category": "Software Engineering Orgs",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Probabilistic Counting Algorithms for Database Applications",
+    "url": "https://github.com/papers-we-love/papers-we-love/blob/main/sublinear_algorithms/1985-Flajolet-Probabilistic-counting.pdf",
+    "category": "Sublinear Algorithms",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "An Elementary Proof of a Theorem of Johnson and Lindenstrauss",
+    "url": "https://github.com/papers-we-love/papers-we-love/blob/main/sublinear_algorithms/An-Elementary-Proof-of-a-Theorem-of-Johnson-and-Lindenstrauss.pdf",
+    "category": "Sublinear Algorithms",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "https://www.zora.uzh.ch/id/eprint/62963/1/p433-dignos.pdf",
+    "category": "Temporal Data",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "https://github.com/papers-we-love/papers-we-love/blob/main/time_series/operators-on-inhomogeneous-time-series.pdf",
+    "category": "Time Series",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "https://github.com/papers-we-love/papers-we-love/blob/main/time_series/ts-asap.pdf",
+    "category": "Time Series",
+    "description": "[ASAP: Automatic Smoothing for Attention Prioritization in Streaming Time Series Visualization](https://arxiv.org/abs/1703.00983)  - Kexin Rong, Peter Bailis",
+    "local_pdf": false
+  },
+  {
+    "title": "HYDRA: the kernel of a multiprocessor operating system",
+    "url": "https://kilthub.cmu.edu/articles/HYDRA_--_the_kernel_of_a_multiprocessor_operating_system/6606224/files/12096734.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Two years of experience with a μ-Kernel based OS",
+    "url": "https://dl.acm.org/citation.cfm?id=122124",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A persistent system in real use-experiences of the first 13 years",
+    "url": "https://os.itec.kit.edu/downloads/publ_1993_liedtke_persistent-system-in-real-use.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "SPIN: An extensible microkernel for application-specific operating system services",
+    "url": "https://apps.dtic.mil/dtic/tr/fulltext/u2/a293537.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Extensibility safety and performance in the SPIN operating system",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.6702&rep=rep1&type=pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Policy/mechanism separation in Hydra",
+    "url": "http://www.cse.psu.edu/~trj1/cse543-f12/docs/p132-levin-hydra.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Improving IPC by kernel design",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.55.9939&rep=rep1&type=pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Exokernel: An operating system architecture for application-level resource management",
+    "url": "http://pages.cs.wisc.edu/~remzi/Classes/736/Spring2014/Papers/exo-sosp95.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Exterminate all operating system abstractions",
+    "url": "http://studies.ac.upc.es/doctorat/ENGRAP/hotos-jeremiad.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Clive Operating System",
+    "url": "http://github.com/fjballest/docs/blob/master/clivesys.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Multikernel: A new OS architecture for scalable multicore systems",
+    "url": "http://www.cse.iitd.ac.in/~sbansal/csl862-os/readings/barrelfish.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "IX: A Protected Dataplane Operating System for High Throughput and Low Latency",
+    "url": "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-belay.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The IX Operating System: Combining Low Latency, High Throughput, and Efficiency in a Protected Dataplane",
+    "url": "https://infoscience.epfl.ch/record/223617/files/tocs16-ix.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Contiki - a lightweight and flexible operating system for tiny networked sensors",
+    "url": "http://dunkels.com/adam/dunkels04contiki.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Arrakis: The Operating System Is the Control Plane",
+    "url": "https://dl.acm.org/citation.cfm?id=2812806",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Embracing diversity in the Barrelfish manycore operating system",
+    "url": "http://www.barrelfish.org/publications/barrelfish_mmcs08.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Decoupling Cores, Kernels, and Operating Systems",
+    "url": "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-zellweger.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Unikernels: Library Operating Systems for the Cloud",
+    "url": "http://unikernel.org/files/2013-asplos-mirage.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Unikernels: the rise of the virtual library operating system",
+    "url": "https://cacm.acm.org/magazines/2014/1/170866-unikernels/fulltext",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Maximizing hypervisor scalability using minimal virtual machines",
+    "url": "https://core.ac.uk/download/pdf/35074556.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Breaking up is hard to do: security and functionality in a commodity hypervisor",
+    "url": "https://open.library.ubc.ca/media/download/pdf/24/1.0052016/1",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A case for high performance computing with virtual machines",
+    "url": "http://mvapich.cse.ohio-state.edu/static/media/publications/abstract/huangwei-ics06.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Comparing the robustness of POSIX operating systems",
+    "url": "https://users.ece.cmu.edu/~koopman/ballista/ftcs99/ftcs99.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Exploring the Design Space of Combining Linux with Lightweight Kernels for Extreme Scale Computing",
+    "url": "http://www.mcs.anl.gov/events/workshops/ross/2015/slides/ross2015-gerofi.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Using kernel hypervisors to secure applications",
+    "url": "https://ieeexplore.ieee.org/abstract/document/646188",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "IncludeOS: A minimal, resource efficient unikernel for cloud services",
+    "url": "http://oda.oslomet.no/oda-xmlui/bitstream/handle/10642/3189/1321835.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "OSv—optimizing the operating system for virtual machines",
+    "url": "https://www.usenix.org/system/files/conference/atc14/atc14-paper-kivity.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "ClickOS and the art of network function virtualization",
+    "url": "https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-martins.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Enabling fast, dynamic network processing with clickos",
+    "url": "http://conferences.sigcomm.org/sigcomm/2013/papers/hotsdn/p67.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The rump kernel: A tool for driver development and a toolkit for applications",
+    "url": "https://www.netbsd.org/gallery/presentations/justin/2015_AsiaBSDCon/justincormack-abc2015.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Flexible operating system internals: the design and implementation of the anykernel and rump kernels",
+    "url": "https://aaltodoc.aalto.fi/bitstream/handle/123456789/6318/isbn9789526049175.pdf?sequence=1",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Rump Kernels: No OS? No Problem!",
+    "url": "https://www.usenix.org/system/files/login/articles/login_1410_03_kantee.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "HermitCore: A Unikernel for Extreme Scale Computing",
+    "url": "https://dl.acm.org/citation.cfm?id=2931093",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "llamaOS: A Solution for Virtualized High-Performance Computing Clusters",
+    "url": "https://ieeexplore.ieee.org/document/6969511",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "KylinX: A Dynamic Library Operating System for Simplified and Efficient Cloud Virtualization",
+    "url": "https://www.usenix.org/conference/atc18/presentation/zhang-yiming",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The impact of operating system structure on memory system performance",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.52.4651&rep=rep1&type=pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Hypervisors vs. Lightweight Virtualization: A Performance Comparison",
+    "url": "https://www.researchgate.net/profile/Roberto_Morabito/publication/273756984_Hypervisors_vs_Lightweight_Virtualization_A_Performance_Comparison/links/550a83660cf26198a63afb10.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A performance evaluation of rump kernels as a multi-server os building block on sel4",
+    "url": "http://trustworthy.systems/publications/csiro_full_text/Elphinstone_ZMH_17.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "An updated performance comparison of virtual machines and linux containers",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.471.9242&rep=rep1&type=pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "My VM is Lighter (and Safer) than your Container",
+    "url": "https://dl.acm.org/citation.cfm?id=3132763",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Security of OS-level virtualization technologies: Technical report",
+    "url": "https://arxiv.org/pdf/1407.4245v1.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Time Provisioning Evaluation of KVM, Docker and Unikernels in a Cloud Platform",
+    "url": "http://repositorio.pucrs.br/dspace/bitstream/10923/14178/2/Time_provisioning_evaluation_of_KVM_Docker_and_Unikernels_in_a_Cloud_Platform.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Tardigrade: Leveraging Lightweight Virtual Machines to Easily and Efficiently Construct Fault-Tolerant Services",
+    "url": "https://www.usenix.org/node/189029",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Unikernel-based approach for software-defined security in cloud infrastructures",
+    "url": "https://hal.inria.fr/hal-01798793/document",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "FADES: Fine-Grained Edge Offloading with Unikernels",
+    "url": "http://home.in.tum.de/~ding/files/fades-pre-camera.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Enterprise IoT security and scalability: how unikernels can improve the status Quo",
+    "url": "http://aura.abdn.ac.uk/bitstream/handle/2164/7988/PID4488667.pdf?sequence=1&isAllowed=y",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Unikernels Everywhere: The Case for Elastic CDNs",
+    "url": "https://dl.acm.org/citation.cfm?id=3050757",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Towards minimalistic, virtualized content caches with minicache",
+    "url": "http://cnp.neclab.eu/projects/minicache/minicache-workshop.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Jitsu: Just-in-time summoning of unikernels",
+    "url": "https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-madhavapeddy.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Enabling fast, dynamic network processing with clickOS",
+    "url": "http://conferences.sigcomm.org/sigcomm/2013/papers/hotsdn/p67.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "uniprof: A Unikernel Stack Profiler",
+    "url": "https://flosch.eu/papers/2017-sigcomm-uniprof.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "On the Fly TCP Acceleration with Miniproxy",
+    "url": "https://arxiv.org/pdf/1605.06285.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Unikernel monitors: extending minimalism outside of the box",
+    "url": "https://www.usenix.org/system/files/conference/hotcloud16/hotcloud16_williams.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Unikernels As Processes",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3267809.3267845",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "On the Fly Orchestration of Unikernels: Tuning and Performance Evaluation of Virtual Infrastructure Managers",
+    "url": "https://arxiv.org/pdf/1809.07701.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Live updating in Unikernels",
+    "url": "https://www.duo.uio.no/bitstream/handle/10852/59240/45/live-updating-unikernels.pdf",
+    "category": "Unikernels",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "One VM to Rule Them All",
+    "url": "http://lafo.ssw.uni-linz.ac.at/papers/2013_Onward_OneVMToRuleThemAll.pdf",
+    "category": "Virtual Machines",
+    "description": "- This is an exciting VM implementation that incorporates AST node rewriting and an optimizing compiler. It enables the implementation of, and excellent performance for, a wide range of languages.",
+    "local_pdf": false
+  },
+  {
+    "title": "Xen and the Art of Virtualization",
+    "url": "http://www.cl.cam.ac.uk/research/srg/netos/papers/2003-xensosp.pdf",
+    "category": "Virtual Machines",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Development of the C Language-Original",
+    "url": "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.pdf",
+    "category": "Languages - C",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Why C++ is not just an Object-Oriented Programming Language-Original",
+    "url": "http://www.stroustrup.com/oopsla.pdf",
+    "category": "Languages - C++",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Go Lang Original Paper",
+    "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.138.6297&rep=rep1&type=pdf",
+    "category": "Languages - Go",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Java Original Paper",
+    "url": "https://pdfs.semanticscholar.org/ee07/8894734c70589cb9653e2169a4342ae02355.pdf",
+    "category": "Languages - Java",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Java Whitepaper",
+    "url": "http://www.stroustrup.com/1995_Java_whitepaper.pdf",
+    "category": "Languages - Java",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "SPECIALISING DYNAMIC TECHNIQUES FOR IMPLEMENTING THE RUBY PROGRAMMING LANGUAGE (2015)",
+    "url": "https://chrisseaton.com/phd/specialising-ruby.pdf",
+    "category": "Languages - Ruby",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "RRB-Trees: Efﬁcient Immutable Vectors",
+    "url": "http://infoscience.epfl.ch/record/169879/files/RMTrees.pdf",
+    "category": "Languages - Clojure",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Compiling Pattern Matching to good Decision Trees",
+    "url": "http://www.cs.tufts.edu/~nr/cs257/archive/luc-maranget/jun08.pdf",
+    "category": "Languages - Clojure",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "a-practical-optional-type-system-for-clojure.pdf",
+    "category": "Languages - Clojure",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Backtracking Iterators",
+    "url": "https://www.lri.fr/~filliatr/publis/enum2.pdf",
+    "category": "Languages - Clojure",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Breadth-First Numbering: Lessons from a Small Exercise in Algorithm Design",
+    "url": "http://www.cs.tufts.edu/~nr/cs257/archive/chris-okasaki/breadth-first.pdf",
+    "category": "Languages - Clojure",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs",
+    "url": "http://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf",
+    "category": "Languages - Clojure",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "QuickCheck Testing for Fun and Profit",
+    "url": "http://people.inf.elte.hu/center/fulltext.pdf",
+    "category": "Languages - Clojure",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Making reliable distributed systems in the presence of software errors",
+    "url": "http://erlang.org/download/armstrong_thesis_2003.pdf",
+    "category": "Languages - Erlang",
+    "description": "PhD thesis of Joe Armstrong, Erlang’s co-inventor, describing the origins of Erlang.",
+    "local_pdf": false
+  },
+  {
+    "title": "A History of Erlang",
+    "url": "https://www.labouseur.com/courses/erlang/history-of-erlang-armstrong.pdf",
+    "category": "Languages - Erlang",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Characterizing the Scalability of Erlang VM on Many-core Processors",
+    "url": "http://www.diva-portal.org/smash/get/diva2:392243/FULLTEXT01.pdfOn",
+    "category": "Languages - Erlang",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "On the Scalability of the Erlang Term Storage",
+    "url": "http://winsh.me/papers/erlang_workshop_2013.pdf",
+    "category": "Languages - Erlang",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "A History of Haskell: Being Lazy With Class",
+    "url": "http://research.microsoft.com/en-us/um/people/simonpj/papers/history-of-haskell/history.pdf",
+    "category": "Languages - Haskell",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Notions of Computation and Monads",
+    "url": "https://core.ac.uk/download/pdf/82259574.pdf",
+    "category": "Languages - Haskell",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "The Essence of Functional Programming",
+    "url": "https://page.mi.fu-berlin.de/scravy/realworldhaskell/materialien/the-essence-of-functional-programming.pdf",
+    "category": "Languages - Haskell",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Monad Transformers and Modular Interpreters",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/199448.199528",
+    "category": "Languages - Haskell",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Extensible Effects: An Alternative to Monad Transformers",
+    "url": "http://okmij.org/ftp/Haskell/extensible/exteff.pdf",
+    "category": "Languages - Haskell",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Freer Monads, More Extensible Effects",
+    "url": "http://okmij.org/ftp/Haskell/extensible/more.pdf",
+    "category": "Languages - Haskell",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Data types a la carte",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/14416CB20C4637164EA9F77097909409/S0956796808006758a.pdf/data-types-a-la-carte.pdf",
+    "category": "Languages - Haskell",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Effect Handlers in Scope",
+    "url": "http://www.cs.ox.ac.uk/people/nicolas.wu/papers/Scope.pdf",
+    "category": "Languages - Haskell",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Fusion for Free: Efficient Algebraic Handlers",
+    "url": "https://people.cs.kuleuven.be/~tom.schrijvers/Research/papers/mpc2015.pdf",
+    "category": "Languages - Haskell",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Handlers In Action",
+    "url": "http://homepages.inf.ed.ac.uk/slindley/papers/handlers.pdf",
+    "category": "Languages - Haskell",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Composing Fractals",
+    "url": "http://web.cecs.pdx.edu/~mpj/pubs/composing-fractals.pdf",
+    "category": "Languages - Haskell",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": ":scroll:",
+    "url": "functional-programming-with-bananas-lenses-envelops-and-barbed-wire.pdf",
+    "category": "Languages Paradigms - Functional Programming",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": ":scroll:",
+    "url": "purely-functional-data-structures.pdf",
+    "category": "Languages Paradigms - Functional Programming",
+    "description": "",
+    "local_pdf": true
+  },
+  {
+    "title": "Backtracking Iterators",
+    "url": "https://www.lri.fr/~filliatr/publis/enum2.pdf",
+    "category": "Languages Paradigms - Functional Programming",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Breadth-First Numbering: Lessons from a Small Exercise in Algorithm Design",
+    "url": "http://www.cs.tufts.edu/~nr/cs257/archive/chris-okasaki/breadth-first.pdf",
+    "category": "Languages Paradigms - Functional Programming",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Crossing the Gap from Imperative to Functional Programming through Refactoring",
+    "url": "http://dig.cs.illinois.edu/papers/lambdaRefactoring.pdf",
+    "category": "Languages Paradigms - Functional Programming",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Functional Reactive Programming, Continued",
+    "url": "https://www.antonycourtney.com/pubs/frpcont.pdf",
+    "category": "Languages Paradigms - Functional Reactive Programming",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Event-Driven FRP",
+    "url": "https://www.researchgate.net/publication/2415013_Event-driven_FRP",
+    "category": "Languages Paradigms - Functional Reactive Programming",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Real-Time FRP",
+    "url": "https://csiflabs.cs.ucdavis.edu/~johari/refs/rt-frp.pdf",
+    "category": "Languages Paradigms - Functional Reactive Programming",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Asynchronous Functional Reactive Programming for GUIs",
+    "url": "http://people.seas.harvard.edu/~chong/pubs/pldi13-elm.pdf",
+    "category": "Languages Paradigms - Functional Reactive Programming",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Push-Pull Functional Reactive Programming",
+    "url": "http://conal.net/papers/push-pull-frp/push-pull-frp.pdf",
+    "category": "Languages Paradigms - Functional Reactive Programming",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Wormholes: Introducing Effects to FRP",
+    "url": "https://www.danwc.com/data/Winograd-Cort-Wormholes.pdf",
+    "category": "Languages Paradigms - Functional Reactive Programming",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Elm: Concurrent FRP for Functional GUIs",
+    "url": "https://www.seas.harvard.edu/sites/default/files/files/archived/Czaplicki.pdf",
+    "category": "Languages Paradigms - Functional Reactive Programming",
+    "description": "",
+    "local_pdf": false
+  },
+  {
+    "title": "Metaobject protocols: Why we want them and what else they can do",
+    "url": "http://cseweb.ucsd.edu/~vahdat/papers/mop.pdf",
+    "category": "Languages Paradigms - Object Oriented Programming",
+    "description": "",
+    "local_pdf": false
+  }
+]
