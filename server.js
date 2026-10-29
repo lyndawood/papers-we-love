@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import fs from 'fs';
-import Database from 'sqlite3';
+import sqlite3 from 'sqlite3';
 import { open } from 'sqlite';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -25,7 +25,7 @@ async function initDatabase() {
   console.log('🗄️  Initializing database...');
   db = await open({
     filename: join(__dirname, 'papers.db'),
-    driver: Database.Database
+    driver: sqlite3.Database
   });
 
   await db.exec(`
