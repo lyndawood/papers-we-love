@@ -15,11 +15,14 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
   const [pdfLoading, setPdfLoading] = useState(false);
+  const [featuredPapers, setFeaturedPapers] = useState([]);
   const canvasRef = useRef(null);
+  const carouselRef = useRef(null);
 
-  // Load categories on mount
+  // Load categories and featured papers on mount
   useEffect(() => {
     fetchCategories();
+    fetchFeaturedPapers();
   }, []);
 
   // Load papers when search or category changes
@@ -40,6 +43,16 @@ function App() {
       setCategories(data);
     } catch (error) {
       console.error('Error fetching categories:', error);
+    }
+  };
+
+  const fetchFeaturedPapers = async () => {
+    try {
+      const response = await fetch('/api/papers?limit=12');
+      const data = await response.json();
+      setFeaturedPapers(data.papers);
+    } catch (error) {
+      console.error('Error fetching featured papers:', error);
     }
   };
 
@@ -92,7 +105,6 @@ function App() {
     setPdfDoc(null);
     setTotalPages(0);
     
-    // Load PDF if it's a local PDF
     if (paper.local_pdf) {
       loadPDF(paper.url);
     }
@@ -169,22 +181,54 @@ function App() {
     setSelectedPaper(null);
   };
 
+  const scrollCarousel = (direction) => {
+    if (carouselRef.current) {
+      const scrollAmount = 320;
+      carouselRef.current.scrollBy({
+        left: direction === 'left' ? -scrollAmount : scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <>
-      <header>
+      <header className="header">
+        <div className="header-top">
+          <div className="logo">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20v-2H6.5A2.5 2.5 0 0 0 4 17.5v2z"/>
+              <path d="M6.5 2H20v15H6.5A2.5 2.5 0 0 1 4 14.5v-10A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+            <span>keeper</span>
+          </div>
+          <nav className="nav">
+            <a href="#new" className="nav-link">New</a>
+            <a href="#explore" className="nav-link">Explore</a>
+            <a href="#contribute" className="nav-link">Send us your treasure</a>
+          </nav>
+        </div>
+
+        <div className="header-divider"></div>
+
         <div className="header-content">
-          <h1>📚 Papers We Love</h1>
-          <p className="header-subtitle">Interactive browser for academic computer science papers</p>
+          <h1 className="page-title">Explore Our Latest <span className="serif-accent">Discourse</span></h1>
           
           <div className="search-container">
-            <input
-              type="text"
-              className="search-input"
-              placeholder="Search papers by title or description..."
-              value={searchQuery}
-              onChange={handleSearchChange}
-              aria-label="Search papers"
-            />
+            <div className="search-wrapper">
+              <input
+                type="text"
+                className="search-input"
+                placeholder="Search papers..."
+                value={searchQuery}
+                onChange={handleSearchChange}
+                aria-label="Search papers"
+              />
+              <svg className="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+              </svg>
+            </div>
             <select
               className="category-filter"
               value={selectedCategory}
@@ -200,148 +244,208 @@ function App() {
         </div>
       </header>
 
-      <div className="container">
-        <div className="stats">
-          <div className="stat">
-            <div className="stat-value">{papers.length}</div>
-            <div className="stat-label">Papers Found</div>
-          </div>
-          <div className="stat">
-            <div className="stat-value">{categories.length}</div>
-            <div className="stat-label">Categories</div>
-          </div>
-        </div>
-
-        <div className="layout">
-          {/* Papers List */}
-          <div className="papers-section">
-            <div className="papers-header">
-              <h2>Papers</h2>
-              {(searchQuery || selectedCategory) && (
-                <button className="btn btn-secondary" onClick={clearFilters}>
-                  Clear Filters
+      <main className="main">
+        {/* Featured Carousel */}
+        {!searchQuery && !selectedCategory && featuredPapers.length > 0 && (
+          <section className="featured-section">
+            <div className="featured-header">
+              <h2 className="section-title">Featured Papers</h2>
+              <div className="carousel-controls">
+                <button 
+                  className="carousel-btn" 
+                  onClick={() => scrollCarousel('left')}
+                  aria-label="Scroll left"
+                >
+                  ←
                 </button>
+                <button 
+                  className="carousel-btn" 
+                  onClick={() => scrollCarousel('right')}
+                  aria-label="Scroll right"
+                >
+                  →
+                </button>
+              </div>
+            </div>
+            <div className="carousel" ref={carouselRef}>
+              {featuredPapers.map((paper, idx) => (
+                <div
+                  key={paper.id}
+                  className="carousel-card"
+                  style={{
+                    transform: `rotate(${(idx % 2 === 0 ? -2 : 2)}deg)`
+                  }}
+                  onClick={() => handlePaperSelect(paper)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyPress={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      handlePaperSelect(paper);
+                    }
+                  }}
+                >
+                  <div className="card-content">
+                    <h3 className="card-title">{paper.title}</h3>
+                    <p className="card-category">{paper.category}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <div className="container">
+          <div className="stats-bar">
+            <div className="stat">
+              <div className="stat-value">{papers.length}</div>
+              <div className="stat-label">Papers</div>
+            </div>
+            <div className="stat-divider"></div>
+            <div className="stat">
+              <div className="stat-value">{categories.length}</div>
+              <div className="stat-label">Categories</div>
+            </div>
+          </div>
+
+          <div className="layout">
+            {/* Papers List */}
+            <div className="papers-section">
+              <div className="papers-header">
+                <h2 className="section-title">Collection</h2>
+                {(searchQuery || selectedCategory) && (
+                  <button className="btn-clear" onClick={clearFilters}>
+                    Clear Filters ×
+                  </button>
+                )}
+              </div>
+
+              {loading ? (
+                <div className="loading-state">
+                  <div className="spinner"></div>
+                  <p>Searching our collection...</p>
+                </div>
+              ) : papers.length === 0 ? (
+                <div className="empty-state">
+                  <p className="empty-title">No papers found</p>
+                  <p className="empty-subtitle">Try adjusting your search or filters</p>
+                </div>
+              ) : (
+                <div className="papers-list">
+                  {papers.map(paper => (
+                    <div
+                      key={paper.id}
+                      className={`paper-item ${selectedPaper?.id === paper.id ? 'active' : ''}`}
+                      onClick={() => handlePaperSelect(paper)}
+                      role="button"
+                      tabIndex={0}
+                      onKeyPress={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                          handlePaperSelect(paper);
+                        }
+                      }}
+                    >
+                      <div className="paper-item-content">
+                        <h3 className="paper-title">{paper.title}</h3>
+                        <p className="paper-category">{paper.category}</p>
+                      </div>
+                      <div className="paper-indicator">›</div>
+                    </div>
+                  ))}
+                </div>
               )}
             </div>
 
-            {loading ? (
-              <div className="loading">
-                <div className="spinner"></div>
-                Loading papers...
-              </div>
-            ) : papers.length === 0 ? (
-              <div className="empty-state">
-                <h3>No papers found</h3>
-                <p>Try adjusting your search or filters</p>
-              </div>
-            ) : (
-              <div className="papers-list">
-                {papers.map(paper => (
-                  <div
-                    key={paper.id}
-                    className={`paper-item ${selectedPaper?.id === paper.id ? 'active' : ''}`}
-                    onClick={() => handlePaperSelect(paper)}
-                    role="button"
-                    tabIndex={0}
-                    onKeyPress={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        handlePaperSelect(paper);
-                      }
-                    }}
-                  >
-                    <div className="paper-title">{paper.title}</div>
-                    <div className="paper-category">{paper.category}</div>
+            {/* Preview Section */}
+            <div className="preview-section">
+              {!selectedPaper ? (
+                <div className="preview-empty">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  </svg>
+                  <h3>Select a paper to explore</h3>
+                  <p>Choose from our collection to view details and read</p>
+                </div>
+              ) : (
+                <div className="preview-content">
+                  <div className="preview-header">
+                    <h2 className="preview-title">{selectedPaper.title}</h2>
+                    <p className="preview-category">{selectedPaper.category}</p>
                   </div>
-                ))}
-              </div>
-            )}
-          </div>
 
-          {/* Preview Section */}
-          <div className="preview-section">
-            {!selectedPaper ? (
-              <div className="preview-empty">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                </svg>
-                <h3>Select a paper to preview</h3>
-                <p>Click on any paper from the list to view details and read</p>
-              </div>
-            ) : (
-              <>
-                <h2 className="preview-title">{selectedPaper.title}</h2>
-                
-                <div className="preview-meta">
-                  <div className="meta-item">
-                    <span className="meta-label">Category:</span>
-                    <span>{selectedPaper.category}</span>
-                  </div>
                   {selectedPaper.description && (
-                    <div className="meta-item">
-                      <span className="meta-label">Description:</span>
-                      <span>{selectedPaper.description}</span>
+                    <p className="preview-description">{selectedPaper.description}</p>
+                  )}
+
+                  <div className="preview-actions">
+                    <a
+                      href={selectedPaper.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-primary"
+                    >
+                      Read Paper
+                    </a>
+                    <button
+                      className="btn btn-secondary"
+                      onClick={() => {
+                        navigator.clipboard.writeText(selectedPaper.url);
+                        alert('Link copied to clipboard!');
+                      }}
+                    >
+                      Copy Link
+                    </button>
+                  </div>
+
+                  {/* PDF Viewer */}
+                  {selectedPaper.local_pdf && (
+                    <div className="pdf-viewer">
+                      <div className="pdf-header">
+                        <h3>PDF Preview</h3>
+                      </div>
+                      {pdfLoading ? (
+                        <div className="pdf-loading">
+                          <div className="spinner"></div>
+                          <p>Loading PDF...</p>
+                        </div>
+                      ) : pdfDoc ? (
+                        <>
+                          <div className="pdf-controls">
+                            <button 
+                              className="pdf-btn" 
+                              onClick={handlePrevPage} 
+                              disabled={currentPage <= 1}
+                            >
+                              ← Previous
+                            </button>
+                            <span className="pdf-page-info">
+                              {currentPage} / {totalPages}
+                            </span>
+                            <button 
+                              className="pdf-btn" 
+                              onClick={handleNextPage} 
+                              disabled={currentPage >= totalPages}
+                            >
+                              Next →
+                            </button>
+                          </div>
+                          <div className="pdf-canvas-wrapper">
+                            <canvas ref={canvasRef}></canvas>
+                          </div>
+                        </>
+                      ) : null}
                     </div>
                   )}
                 </div>
-
-                {selectedPaper.description && (
-                  <p className="preview-description">{selectedPaper.description}</p>
-                )}
-
-                <div className="preview-actions">
-                  <a
-                    href={selectedPaper.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-primary"
-                  >
-                    📖 Read Paper
-                  </a>
-                  <button
-                    className="btn btn-secondary"
-                    onClick={() => {
-                      navigator.clipboard.writeText(selectedPaper.url);
-                      alert('Link copied to clipboard!');
-                    }}
-                  >
-                    🔗 Copy Link
-                  </button>
-                </div>
-
-                {/* PDF Viewer */}
-                {selectedPaper.local_pdf && (
-                  <div className="pdf-viewer">
-                    {pdfLoading ? (
-                      <div style={{ padding: '2rem', textAlign: 'center', color: '#999' }}>
-                        <div className="loading">
-                          <div className="spinner"></div>
-                          Loading PDF...
-                        </div>
-                      </div>
-                    ) : pdfDoc ? (
-                      <>
-                        <div className="pdf-controls">
-                          <button onClick={handlePrevPage} disabled={currentPage <= 1}>
-                            ← Previous
-                          </button>
-                          <span className="pdf-page-info">
-                            Page {currentPage} of {totalPages}
-                          </span>
-                          <button onClick={handleNextPage} disabled={currentPage >= totalPages}>
-                            Next →
-                          </button>
-                        </div>
-                        <canvas ref={canvasRef}></canvas>
-                      </>
-                    ) : null}
-                  </div>
-                )}
-              </>
-            )}
+              )}
+            </div>
           </div>
         </div>
-      </div>
+      </main>
+
+      <footer className="footer">
+        <p>Papers We Love — A curated collection of academic computer science papers</p>
+      </footer>
     </>
   );
 }
