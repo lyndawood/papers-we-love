@@ -4,9 +4,18 @@
 
 **Papers We Love** (*PWL*) is a community built around reading, discussing and learning more about academic computer science papers. This repository serves as a directory of some of the best papers the community can find, bringing together documents scattered across the web. You can also visit the [Papers We Love site](http://paperswelove.org/) for more info.
 
-### 🚀 Interactive Web App
+### 🚀 Interactive Web App — "Keeper"
 
-We've built an interactive web application to browse, search, and read papers! To get started:
+We've built a sophisticated, elegant web application to browse, search, and read papers with a refined dark literary aesthetic. Features include:
+
+- **Full-text search** across 392 papers in 62 categories
+- **Featured carousel** with tilted paper cards
+- **In-browser PDF viewer** with page navigation
+- **Elegant dark interface** with serif typography and minimalist borders
+- **Responsive design** from mobile to desktop
+- **WCAG AA accessibility** with keyboard navigation
+
+To get started:
 
 ```bash
 npm install && cd frontend && npm install && cd ..
@@ -14,7 +23,7 @@ npm run build
 npm start
 ```
 
-Then open **http://localhost:3000** in your browser. See [SETUP.md](SETUP.md) for detailed instructions and troubleshooting.
+Then open **http://localhost:3000** in your browser. See [SETUP.md](SETUP.md) for detailed instructions, or [DESIGN_GUIDE.md](DESIGN_GUIDE.md) for design documentation.
 
 Due to [licenses](https://github.com/papers-we-love/papers-we-love/blob/main/.github/CONTRIBUTING.md#respect-content-licenses) we cannot always host the papers themselves (when we do, you will see a :scroll: emoji next to its title in the directory README) but we can provide links to their locations.
 
