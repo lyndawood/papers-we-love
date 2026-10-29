@@ -16,8 +16,31 @@ function App() {
   const [totalPages, setTotalPages] = useState(0);
   const [pdfLoading, setPdfLoading] = useState(false);
   const [featuredPapers, setFeaturedPapers] = useState([]);
+  const [isHeaderMinimized, setIsHeaderMinimized] = useState(false);
   const canvasRef = useRef(null);
   const carouselRef = useRef(null);
+  const lastScrollY = useRef(0);
+
+  // Handle scroll to minimize header
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      // Minimize header when scrolling down past 100px
+      if (currentScrollY > 100 && currentScrollY > lastScrollY.current) {
+        setIsHeaderMinimized(true);
+      } 
+      // Expand header when scrolling up
+      else if (currentScrollY < lastScrollY.current) {
+        setIsHeaderMinimized(false);
+      }
+      
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   // Load categories and featured papers on mount
   useEffect(() => {
@@ -193,7 +216,7 @@ function App() {
 
   return (
     <>
-      <header className="header">
+      <header className={`header ${isHeaderMinimized ? 'minimized' : ''}`}>
         <div className="header-top">
           <div className="logo">
             <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
